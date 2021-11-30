@@ -1,2 +1,2 @@
 # trash-sorter
-trash sorter lambda code
+trash sorter with robotic arm
