@@ -101,12 +101,6 @@ def dumpRecycle():
     print("*******Recycle End********")
 
 
-def dumpLandfill():
-    print("*******Dump Trah Start********")
-    AGC.runAction('grab-box-trash')
-    print("*******Dump Trah End********")
-
-
 # Callback when the subscribed topic receives a message
 def on_message_received(topic, payload, dup, qos, retain, **kwargs):
     print("Received message from topic '{}': {}".format(topic, payload))
